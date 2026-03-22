@@ -62,7 +62,7 @@ curl -X POST http://localhost:3000/api/webhooks/incoming \
 ## Technical Architecture Guide
 
 #### 1. General Architecture
-![alt text](image.png)
+![alt text](image-3.png)
 - The MS Graph API integration is left out because for a MVP it is not necessary. We can just use the webhook to receive emails to test the MVP.
 - The AI is used to categorize the emails and to draft responses. 
 - The dashboard is built using Next.js 15 (App Router), React, TypeScript, Tailwind CSS, Shadcn UI.
